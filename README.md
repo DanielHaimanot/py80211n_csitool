@@ -1,8 +1,8 @@
 # WiFi channel state information parser 
 
 Implementation in Python for the parsing of raw CSI data files. 
-- Full support for static file parsing with both Intel IWL5300 and Atheros Ath9k devices. 
-- Partial support for stream parsing with IWL5300 
+- Full support for static file parsing with Intel IWL5300 
+- Partial support for Atheros Ath9k devices and stream parsing with IWL5300 
 
 Tool has to be used along with the output produced by one of the modified WiFi kernel drivers provided here:
 
