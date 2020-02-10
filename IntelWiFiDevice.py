@@ -241,7 +241,7 @@ class IntelDeviceService(ExtractorService):
         return self._mDriver.deviceSymbolData[0]['Nrx'] # Count must be the same for all symbols
 
     def get_transmitter_count(self):
-        return self._mDriver.deviceSymbolData[0]['Nrx']
+        return self._mDriver.deviceSymbolData[0]['Ntx']
 
     def get_full_RSSI(self):
         rssi_a = []
