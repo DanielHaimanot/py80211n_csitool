@@ -1,4 +1,4 @@
-# WiFi channel state information parser 
+# WiFi channel state information 
 
 Implementation in Python for the parsing of raw CSI data files. 
 - Full support for static file parsing with Intel IWL5300 
